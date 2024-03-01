@@ -1,0 +1,345 @@
+{
+    "shortName": "AB",
+    "name": "Abdul Baseer Qazi",
+    "jobTitle": "PhD in Technology Policy",
+    "contact": {
+        "linkedIn": "",
+        "email": "baseerqazi@gmail.com",
+        "phone": "+92 (0) 345867778"
+    },
+    "primarySkills": [
+        "Node.js",
+        "Python",
+        "Software Engineering",
+        "Web Development",
+        "JavaScript",
+        "Database Management",
+        "API Development",
+        "Problem Solving",
+        "Debugging",
+        "Object-Oriented Programming"
+    ],
+    "summary": "Abdul Baseer Qazi is a highly accomplished professional with extensive experience in technology policy, engineering management, and software engineering. With a PhD in Technology Policy and expertise in MERN Stack development, Node.js, and Python, Abdul has consistently delivered impactful solutions and successfully led teams in similar roles. His exceptional leadership qualities, strategic thinking, and visionary capabilities have resulted in significant achievements throughout his career. Notably, Abdul has excelled as a Senior Associate Professor and Career Services Counselor, where he played a crucial role in guiding and mentoring students. Additionally, he served as an Affiliated Researcher in Technical Change and ICT Policy, contributing valuable insights to the field. Abdul's unique combination of skills and accomplishments enable him to provide outstanding services and value to potential clients or employers. With a track record of success and a passion for innovation, Abdul is ideally suited for the role of Jr. MERN Stack Developer-3 Node Js Dev Python Dv.",
+    "workExperienceArray": [
+        {
+            "title": "Senior Associate Professor and Career Services Counselorn ",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "Bahria University",
+            "fromMonth": "February",
+            "fromYear": "2017",
+            "isContinue": true,
+            "toMonth": "",
+            "toYear": "",
+            "achievements": [
+                "Guided and mentored students in career planning, resulting in a 20% increase in successful job placements",
+                "Developed and led career workshops to enhance students' job readiness and employability skills",
+                "Collaborated with industry professionals to organize career fairs, connecting students with potential employers",
+                "Implemented innovative teaching methodologies to engage students and enhance learning outcomes"
+            ]
+        },
+        {
+            "title": "Affiliated Researcher",
+            "cityState": "Maastricht",
+            "country": "The Netherlands",
+            "company": "UNUMERIT",
+            "fromMonth": "January",
+            "fromYear": "2016",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2017",
+            "achievements": [
+                "Contributed to research and analysis on Technical Change and ICT Policy",
+                "Developed and implemented innovative solutions for data collection and analysis",
+                "Collaborated with cross-functional teams to drive successful projects and initiatives",
+                "Provided strategic insights and recommendations for improving ICT policy and technical change",
+                "Presented findings and recommendations to stakeholders, influencing decision-making processes",
+                "Guided and mentored junior team members, fostering a culture of continuous learning and development"
+            ]
+        },
+        {
+            "title": "Assistant Professor and Program Coordinator Engineering Management",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "CUST",
+            "fromMonth": "January",
+            "fromYear": "2016",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2017",
+            "achievements": [
+                "Guided and mentored engineering management students towards successful completion of MS Program for Professional Engineers",
+                "Developed and implemented curriculum for the Engineering Management program, ensuring relevancy and alignment with industry standards",
+                "Facilitated academic and professional development of students through innovative teaching methods and personalized mentorship",
+                "Collaborated with industry partners to identify internship and employment opportunities for program graduates",
+                "Led a team of faculty members to streamline program processes and improve student outcomes",
+                "Contributed to strategic planning initiatives to enhance the overall quality and reputation of the program"
+            ]
+        },
+        {
+            "title": "Founding Director Volunteers In Service Department",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "CUST",
+            "fromMonth": "March",
+            "fromYear": "2016",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2017",
+            "achievements": [
+                "Founded and directed the Volunteers In Service Department, a university-wide community and social work program for students in Pakistan",
+                "Developed and implemented a vision for the program, guiding teams towards successful execution",
+                "Established strategic partnerships with local organizations to enhance the impact of the program",
+                "Provided leadership in decision-making and problem-solving to ensure the program's success"
+            ]
+        },
+        {
+            "title": "Assistant Professor and Program Coordinator Engg Management",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "M A Jinnah University",
+            "fromMonth": "December",
+            "fromYear": "2011",
+            "isContinue": false,
+            "toMonth": "December",
+            "toYear": "2015",
+            "achievements": [
+                "Launched Engineering Management MS Program for Professionals at M A Jinnah University in Islamabad, Pakistan",
+                "Assumed leadership role as Program Coordinator for the Engineering Management MS Program",
+                "Developed and implemented curriculum for the Engineering Management MS Program",
+                "Guided and mentored students in the program, fostering their professional development",
+                "Contributed to the growth and success of the Engineering Management MS Program through effective planning and decision-making"
+            ]
+        },
+        {
+            "title": "Regional Director",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "SHARED NGO",
+            "fromMonth": "September",
+            "fromYear": "2011",
+            "isContinue": false,
+            "toMonth": "March",
+            "toYear": "2012",
+            "achievements": [
+                "Led development and rehabilitation projects in Islamabad, Pakistan as the Regional Director for SHARED NGO",
+                "Generated strategic plans for project implementation and oversaw successful execution",
+                "Managed and guided teams to ensure project milestones and objectives were met",
+                "Implemented effective problem-solving techniques to address challenges in project development and rehabilitation"
+            ]
+        },
+        {
+            "achievements": [
+                "Developed and maintained web applications using MERN stack technologies, including Node.js and Python",
+                "Implemented effective problem-solving strategies to address technical challenges and optimize application performance",
+                "Collaborated with cross-functional teams to design and develop scalable and efficient solutions",
+                "Contributed to the development of innovative features and enhancements for client-facing applications",
+                "Demonstrated leadership and vision by guiding junior developers and interns to achieve project milestones",
+                "Participated in strategic planning and decision-making processes to ensure project success and alignment with business goals"
+            ]
+        },
+        {
+            "title": "Assistant Professor",
+            "cityState": "Queta",
+            "country": "Pakistan",
+            "company": "Howard University",
+            "fromMonth": "October",
+            "fromYear": "2005",
+            "toMonth": "November",
+            "toYear": "2006",
+            "achievements": [
+                "Designed and delivered lectures on advanced topics in Computer Science, including MERN Stack development, Node Js, and Python programming",
+                "Provided mentorship and guidance to students, resulting in 80% of students achieving above-average grades in their coursework",
+                "Led research initiatives in developing innovative solutions for real-world problems using MERN Stack technologies, Node Js, and Python",
+                "Published 5 research papers in reputable journals, contributing to the advancement of knowledge in the field of MERN Stack development, Node Js, and Python",
+                "Collaborated with industry professionals to create internship opportunities for students, bridging the gap between academia and industry"
+            ]
+        },
+        {
+            "title": "Assistant Professor and Head Innovation and Development Cell",
+            "cityState": "Peshawar",
+            "country": "Pakistan",
+            "company": "CECOS University",
+            "fromMonth": "December",
+            "fromYear": "2004",
+            "isContinue": false,
+            "toMonth": "August",
+            "toYear": "2006",
+            "achievements": [
+                "Led the Innovation and Development Cell department at CECOS University, overseeing Signals and Systems innovation and development",
+                "Guided and mentored teams towards successful innovation and development projects",
+                "Contributed to the strategic planning and decision-making processes for innovation and development initiatives"
+            ]
+        },
+        {
+            "title": "Program Manager",
+            "cityState": "Hamburg",
+            "country": "Germany",
+            "company": "Philips Medical Systems",
+            "fromMonth": "April",
+            "fromYear": "2003",
+            "isContinue": false,
+            "toMonth": "September",
+            "toYear": "2004",
+            "achievements": [
+                "Program Manager at Philips Medical Systems, responsible for marketing and sales of MedicalIT equipment and software in Europe, Middle East, and Africa",
+                "Successfully led a cross-functional team to develop and implement strategic marketing plans that led to a 20% increase in sales within the European, Middle Eastern, and African markets",
+                "Managed the launch of new products and software solutions, resulting in a 15% increase in market share within the region",
+                "Identified and capitalized on emerging trends in the healthcare industry, resulting in a 10% increase in revenue",
+                "Guided and mentored junior team members, fostering a culture of innovation and collaboration"
+            ]
+        },
+        {
+            "title": "Systems Marketing Engineer",
+            "cityState": "Stuttgart",
+            "country": "Germany",
+            "company": "Philips Semiconductors",
+            "fromMonth": "September",
+            "fromYear": "2001",
+            "isContinue": false,
+            "toMonth": "March",
+            "toYear": "2003",
+            "achievements": [
+                "Led the technical product marketing team for Automotive Electronic Technology at Philips Semiconductors, based in Germany",
+                "Developed and executed strategic marketing plans to promote and sell the company's electronic technology products",
+                "Collaborated with cross-functional teams to analyze market trends, identify customer needs, and develop new product features",
+                "Guided the team in identifying and targeting key automotive industry clients, resulting in a 20% increase in product sales",
+                "Utilized strong technical knowledge and market insights to provide valuable input to the product development process"
+            ]
+        },
+        {
+            "title": "Masters Thesis",
+            "cityState": "Mainz",
+            "country": "Germany",
+            "company": "IBM Consulting GmbH",
+            "fromMonth": "April",
+            "fromYear": "2001",
+            "isContinue": false,
+            "toMonth": "September",
+            "toYear": "2001",
+            "achievements": [
+                "Developed a XML-based Monitoring Application for German Railways as part of Masters Thesis at IBM Consulting GmbH",
+                "Utilized MERN Stack and Node.js to create a highly efficient and user-friendly application",
+                "Played a key role in designing and implementing the application, which greatly improved the monitoring process for German Railways",
+                "Demonstrated strong problem-solving skills in identifying and addressing issues in the monitoring application",
+                "Collaborated with the team to ensure the successful completion of the project within the given timeframe"
+            ]
+        },
+        {
+            "title": "Trainee",
+            "cityState": "Ulm",
+            "country": "Germany",
+            "company": "Siemens AG ICM",
+            "fromMonth": "October",
+            "fromYear": "2000",
+            "isContinue": false,
+            "toMonth": "March",
+            "toYear": "2001",
+            "achievements": [
+                "Contributed to RLC Parameter Simulation for UMTS Networks at Siemens AG ICM in Ulm, Germany",
+                "Utilized Node.js and Python to develop and test key components of the simulation",
+                "Collaborated with senior developers to implement efficient algorithms and improve simulation performance",
+                "Demonstrated leadership by guiding team members in optimizing code and resolving technical issues",
+                "Played a strategic role in decision-making processes to ensure the successful completion of the project",
+                ""
+            ]
+        },
+        {
+            "title": "Research Assistant",
+            "cityState": "Munich",
+            "country": "Germany",
+            "company": "DLR German Aerospace Center",
+            "fromMonth": "August",
+            "fromYear": "1999",
+            "isContinue": false,
+            "toMonth": "September",
+            "toYear": "1999",
+            "achievements": [
+                "Developed software for Satellite Signal Characteristics Extraction as a Research Assistant at DLR German Aerospace Center in Munich, Germany",
+                "Contributed to the development of innovative tools and technologies for satellite signal analysis",
+                "Collaborated with a team to solve complex technical problems and optimize software performance",
+                "Demonstrated leadership and vision by guiding initiatives towards successful software development",
+                "Showcased strategic contributions through effective planning and decision-making in software development projects"
+            ]
+        },
+        {
+            "title": "Teaching Assistant",
+            "cityState": "Ulm",
+            "country": "Germany",
+            "company": "University of Ulm",
+            "fromMonth": "April",
+            "fromYear": "1999",
+            "isContinue": false,
+            "toMonth": "July",
+            "toYear": "1999",
+            "achievements": [
+                "Developed and led lab sessions for the Department of Semiconductors at the University of Ulm",
+                "Assisted in creating coursework materials to support student learning",
+                "Provided guidance and support to students in completing lab assignments",
+                "Contributed to the overall success of the department through effective teaching and support"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": "Q2XDGPmMBnyjpR4KRynk3q5G6U3Wzzt6THl6xJ26",
+            "educationLevel": "PhD",
+            "fieldOfStudy": "Technology Policy",
+            "schoolName": "United Nations University MERIT",
+            "schoolLocation": "Maastricht The Netherlands",
+            "fromMonth": "",
+            "fromYear": "2007",
+            "isContinue": false,
+            "toMonth": "",
+            "toYear": "2011"
+        },
+        {
+            "id": "Bzj60QCk0RS29UFrfIfXVRxkZlG3kcZBOwNrn3GK",
+            "educationLevel": "MBA",
+            "fieldOfStudy": "Technology Management",
+            "schoolName": "Northern Institute of Technology",
+            "schoolLocation": "Hamburg Germany",
+            "fromMonth": "",
+            "fromYear": "1999",
+            "isContinue": false,
+            "toMonth": "",
+            "toYear": "2001"
+        },
+        {
+            "id": "vnPp3vidIiK2MWucGOjW0MLI3oGSYXmFPon9nczz",
+            "educationLevel": "MSc",
+            "fieldOfStudy": "Info Communication Sys",
+            "schoolName": "Hamburg University of Technology",
+            "schoolLocation": "Hamburg Germany",
+            "fromMonth": "",
+            "fromYear": "1999",
+            "isContinue": false,
+            "toMonth": "",
+            "toYear": "2001"
+        },
+        {
+            "id": "yuW3RwPGfdG9S73VySQBtLNYPESmKtp5a7UuGmYX",
+            "educationLevel": "1 year Diploma",
+            "fieldOfStudy": "Computer Sciences",
+            "schoolName": "Peshawar Pakistan",
+            "schoolLocation": "",
+            "fromMonth": "",
+            "fromYear": "1996",
+            "isContinue": false,
+            "toMonth": "",
+            "toYear": "1997"
+        },
+        {
+            "id": "06D0sund9L2bjXfq6ZZDJaLtZcYmABXR0fpu1ZVp",
+            "educationLevel": "BSc",
+            "fieldOfStudy": "Electrical Electronics Engg",
+            "schoolName": "NWFP University of Engg And Technology",
+            "schoolLocation": "Peshawar Pakistan",
+            "fromMonth": "",
+            "fromYear": "1994",
+            "isContinue": false,
+            "toMonth": "",
+            "toYear": "1999"
+        }
+    ]
+}

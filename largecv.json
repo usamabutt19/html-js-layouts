@@ -1,0 +1,320 @@
+{
+    "shortName": "JA",
+    "name": "James Allis",
+    "jobTitle": "Director of Business Development",
+    "contact": {
+        "linkedIn": "",
+        "email": "testjamesnallis@gmail.com",
+        "phone": "303-547-7759"
+    },
+    "primarySkills": [
+        "Business Development",
+        "Client Relationship Management",
+        "Prospecting",
+        "Sales Strategy",
+        "Marketing",
+        "Networking",
+        "Account Management",
+        "CRM",
+        "Sales Events",
+        "Revenue Generation"
+    ],
+    "summary": "Dynamic Sales Leader with 20+ years of experience driving strategic business growth in real estate, hospitality, media, and advertising industries. Proven track record in new business development, creating innovative sales strategies, and leading high-performing teams. Successful in expanding market presence, increasing client base, and securing key accounts. Adept at building strong relationships with clients and stakeholders, with a visionary approach to sales excellence. Ready to leverage a blend of business acumen and sales expertise to lead a team toward achieving revenue targets and fostering customer satisfaction.",
+    "workExperienceArray": [
+        {
+            "title": "Director of Business Development",
+            "cityState": "Littleton, Co",
+            "country": "",
+            "company": "Hover Architecture",
+            "fromMonth": "",
+            "fromYear": "2023",
+            "isContinue": true,
+            "toMonth": "",
+            "toYear": "",
+            "achievements": [
+                "Director of Business Development",
+                "Hover Architecture",
+                "2023 - Present",
+                "Business Development Division Creation: Established and led the Business Development division to drive company growth, targeting specific industries and engaging with key stakeholders such as owners, developers, and design build firms.",
+                "Market Expansion: Diversified vertical markets by including sectors like Self-Storage and Veterinary/Pet Care.",
+                "Database Growth: Expanded the existing client database by 500%, broadening potential leads for future opportunities.",
+                "Increase in Prospects: Significantly increased prospects by 2350, showcasing the effectiveness of business development strategies.",
+                "Marketing Collaboration: Collaborated with an Ad Agency to create targeted marketing materials, such as e-mail campaigns and YouTube videos, to enhance brand visibility.",
+                "CRM Implementation: Established and managed a new CRM system, optimizing client data organization and streamlining communication processes.",
+                "New Account Prospecting: Utilized platforms like LinkedIn and Build Central to effectively prospect new accounts, enhancing lead generation efforts.",
+                "Leadership and Teamwork: Guided a team of business development professionals, providing strategic direction and fostering a collaborative work environment."
+            ]
+        },
+        {
+            "title": "Account Executive / Business Development",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Travelers Haven / Blueground",
+            "fromMonth": "January",
+            "fromYear": "2022",
+            "isContinue": false,
+            "toMonth": "March",
+            "toYear": "2023",
+            "achievements": [
+                "Sales Expansion:  Generated business growth by identifying key opportunities and targeting new clientele in sectors like healthcare, infrastructure, construction, municipalities, government, and solar, resulting in acquiring large-scale contracts and successfully securing new partnerships.",
+                "Integrated Marketing Approach: Mobilized a comprehensive outreach strategy, blending email marketing with proactive phone calls, to engage prospective clients in the short-term housing market, leveraging Travelers Haven's nationwide partner network.",
+                "Team Collaboration: Collaborated effectively with cross-functional teams, utilizing Salesforce, Outreach, and ZoomInfo to identify and engage with over 200 potential customers, demonstrating strong teamwork and coordination skills."
+            ]
+        },
+        {
+            "title": "Business Development Manager",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "OYO Homes",
+            "fromMonth": "January",
+            "fromYear": "2020",
+            "isContinue": false,
+            "toMonth": "April",
+            "toYear": "2020",
+            "achievements": [
+                "Business Development Manager, OYO Homes (Jan 2020 - Apr 2020)",
+                "Demonstrated entrepreneurial spirit, creating significant value for the business during my tenure.",
+                "Gained recognition for exceptional prospecting and lead generation efforts.",
+                "Generated 2000 new leads over a 2-month period, leveraging my LinkedIn networking skills.",
+                "Launched 7 successful email campaigns, achieving an impressive 67% average open rate.",
+                "Location: Denver, CO"
+            ]
+        },
+        {
+            "title": "Director of Business Development",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Haven Senior Investments",
+            "fromMonth": "March",
+            "fromYear": "2019",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2020",
+            "achievements": [
+                "Coordinated new business development initiatives, leveraging consulting and B2B expertise, to engage Senior Housing facility owners, securing valuable listings and consulting agreements.",
+                "Strategic Marketing and Networking: Utilized targeted e-mail campaigns, newsletters, and networking events, resulting in a 250% growth of our database.",
+                "Proactive Prospect Generation: Implemented effective sales strategies, contributing to a 1058% increase in prospects and a 20-client expansion within merely 6 months.",
+                "Revenue Growth Potential: Led key sales initiatives, potentially generating an additional $4M in revenue.",
+                "Strategic Territory Expansion: Identified and established relations with qualified Senior Housing facilities in Texas, expanding our geographical coverage."
+            ]
+        },
+        {
+            "title": "Director of Business Development",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Haven Senior Investments",
+            "fromMonth": "January",
+            "fromYear": "2019",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2020",
+            "achievements": [
+                "Achieved a 20% increase in sales revenue by developing and implementing targeted marketing strategies, capturing a broader customer base and driving sustained growth.",
+                "Led a cross-functional sales team of 12 members, fostering collaboration and enhancing productivity, resulting in a 15% improvement in overall team sales performance.",
+                "Formulated and executed a customer retention program, reducing churn by 25% and improving long-term client satisfaction and loyalty.",
+                "Spearheaded the introduction of a CRM system, streamlining sales processes and data management, enhancing team efficiency by 30%."
+            ]
+        },
+        {
+            "title": "Business Development Manager",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Aspen Media",
+            "fromMonth": "July",
+            "fromYear": "2017",
+            "isContinue": false,
+            "toMonth": "December",
+            "toYear": "2017",
+            "achievements": [
+                "Position: Business Development Manager\n        Company: Aspen Media\n        Duration: July 2017 - December 2017\n        Location: Denver, CO",
+                "Initiative: Prospecting & Sales\n        Result: Overcame gatekeeper resistance, targeted sales solutions for publishers, and accessed key decision-makers, opening new business opportunities.\n        Leadership: Demonstrated adaptability in a new industry, effectively employing key selling strategies.\n        Progress: Expanded initial account base of 60 to 500 in 6 months, using strategic business development techniques."
+            ]
+        },
+        {
+            "title": "Business Development Manager",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Fireplace Warehouse Etc.",
+            "fromMonth": "January",
+            "fromYear": "2017",
+            "isContinue": false,
+            "toMonth": "April",
+            "toYear": "2018",
+            "achievements": [
+                "Business Development Manager, Fireplace Warehouse Etc. (Jan 2017 - Apr 2018)",
+                "Strategic Growth: Spearheaded new business development efforts, utilizing a range of sales strategies including email campaigns, sales events, and networking. Increased client numbers by 400 and company clients by 200 in just 4 months, contributing to a potential $250K in additional revenue.",
+                "Client Relationship Building: Employed a proactive \"touchpoint\" approach to foster strong relationships with clients, enhancing their loyalty and satisfaction.",
+                "Organizational Innovation: Created and implemented a new client database, streamlining data management processes and paving the way for more effective client communication and engagement."
+            ]
+        },
+        {
+            "title": "Account & Business Development Executive",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Viamedia",
+            "fromMonth": "June",
+            "fromYear": "2016",
+            "isContinue": false,
+            "toMonth": "July",
+            "toYear": "2017",
+            "achievements": [
+                "Account & Business Development Executive, Viamedia",
+                "Revenue Growth: Contributed to a significant 85% achievement of 2017's annual sales goals by the end of Q1."
+            ]
+        },
+        {
+            "title": "Publisher",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Denver Relocation Guide & Website",
+            "fromMonth": "January",
+            "fromYear": "2013",
+            "isContinue": false,
+            "toMonth": "June",
+            "toYear": "2016",
+            "achievements": [
+                "Publisher\n            \n            Company: Denver Relocation Guide & Website\n            \n            Duration: January 2013 - June 2016\n            \n            Location: Denver, CO\n            \n            \n            \n                Strategic Growth: Spearheaded publishing and sales advertising activities, increasing revenues by over 480% in a 2-year period.\n\n                Leadership in New Media: Tripled online and digital revenues, securing a 50% increase in net profitability.\n\n                Client Relationship Building: Strengthened stakeholder and client relationships, resulting in a 50% increase in key advertiser categories.\n\n                Client Retention Focus: Achieved a 10% increase in renewal investments in the second year.",
+                "Strategic Growth: Spearheaded publishing and sales advertising activities, increasing revenues by over 480% in a 2-year period.",
+                "Leadership in New Media: Tripled online and digital revenues, securing a 50% increase in net profitability.",
+                "Client Relationship Building: Strengthened stakeholder and client relationships, resulting in a 50% increase in key advertiser categories.",
+                "Client Retention Focus: Achieved a 10% increase in renewal investments in the second year."
+            ]
+        },
+        {
+            "title": "Publisher",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Morris Visitor Publications",
+            "fromMonth": "January",
+            "fromYear": "2012",
+            "isContinue": false,
+            "toMonth": "December",
+            "toYear": "2013",
+            "achievements": [
+                "Publisher\n      Company: Morris Visitor Publications\n      Duration: January 2012 - December 2013\n      Location: Denver, CO\n      \n      Responsibilities:\n      \n         Sales Leadership: Led sales efforts for the Where Guestbook and magazine advertising space.\n         Business Development: Supervised new business generation, including prospecting and revenue diversification.\n         Strategic Communication: utilized a 'touch point' approach to establish vital client relationships.\n      \n      Key Contributions:\n      \n         Client Base Expansion: Increased the client base by 40% in less than 12 months, leveraging extensive research and relationship-building.",
+                "Sales Leadership: Led sales efforts for the Where Guestbook and magazine advertising space.",
+                "Business Development: Supervised new business generation, including prospecting and revenue diversification.",
+                "Strategic Communication: utilized a 'touch point' approach to establish vital client relationships.",
+                "Client Base Expansion: Increased the client base by 40% in less than 12 months, leveraging extensive research and relationship-building."
+            ]
+        },
+        {
+            "title": "Direct Sales Representative",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Comcast",
+            "fromMonth": "January",
+            "fromYear": "2011",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2012",
+            "achievements": [
+                "Client Prospecting: Effectively introduced vacation property homeowners in Colorado, Nevada, and Florida to the value proposition of listing their properties with OYO Homes.",
+                "Client Database Management: Successfully maintained a client database of over 500 prospects, ensuring timely and accurate follow-ups and communications.",
+                "Lead Generation: Demonstrated exceptional creativity and determination in early-stage prospecting, resulting in a significant increase in qualified leads for both personal and team success.",
+                "Email Campaigns: Initiated and executed 7 highly successful email campaigns, with some achieving an exceptional open rate of 67%."
+            ]
+        },
+        {
+            "title": "Advertising & Account Executive",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Denver Magazine",
+            "fromMonth": "October",
+            "fromYear": "2010",
+            "isContinue": false,
+            "toMonth": "January",
+            "toYear": "2011",
+            "achievements": [
+                "Advertising & Account Executive\n            \n            Denver Magazine | Denver, CO | October 2010 - January 2011"
+            ]
+        },
+        {
+            "title": "Independent Business Consultant",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Denver",
+            "fromMonth": "January",
+            "fromYear": "2008",
+            "isContinue": false,
+            "toMonth": "January",
+            "toYear": "2010",
+            "achievements": [
+                "Strategic Business Consulting:\n      \n        Advised multiple businesses in Denver, CO, on operational enhancements and profitability strategies, resulting in a 25% average increase in revenue in the first year.\n        Collaborated with clients to identify growth opportunities and implemented effective solutions, leading to a 20% market share expansion within the competitive landscape.",
+                "Advised multiple businesses in Denver, CO, on operational enhancements and profitability strategies, resulting in a 25% average increase in revenue in the first year.",
+                "Collaborated with clients to identify growth opportunities and implemented effective solutions, leading to a 20% market share expansion within the competitive landscape.",
+                "Marketing and Sales Strategy Development:\n      \n        Contributed to clients' business planning and sales strategies, boosting customer acquisition by 30%.\n        Conducted comprehensive market research and competitive analysis, resulting in the development of tailored marketing campaigns with a 15% conversion rate improvement.",
+                "Contributed to clients' business planning and sales strategies, boosting customer acquisition by 30%.",
+                "Conducted comprehensive market research and competitive analysis, resulting in the development of tailored marketing campaigns with a 15% conversion rate improvement.",
+                "Financial Management and Budgeting Guidance:\n      \n        Provided strategic financial advice, assisting clients in optimizing their budgets and resource allocation, leading to a 20% reduction in operational costs.",
+                "Provided strategic financial advice, assisting clients in optimizing their budgets and resource allocation, leading to a 20% reduction in operational costs.",
+                "Problem-Solving and Business Support:\n      \n        Mitigated obstacles and challenges faced by clients, supporting them in achieving their objectives and realizing a 35% improvement in overall business performance.",
+                "Mitigated obstacles and challenges faced by clients, supporting them in achieving their objectives and realizing a 35% improvement in overall business performance."
+            ]
+        },
+        {
+            "title": "Digital Media Advertising Manager",
+            "cityState": "Beaverton, OR",
+            "country": "United States of America",
+            "company": "TransCore Media Group",
+            "fromMonth": "January",
+            "fromYear": "2007",
+            "isContinue": false,
+            "toMonth": "February",
+            "toYear": "2008",
+            "achievements": [
+                "Strategic Revenue Growth: As the Digital Media Advertising Manager at TransCore Media Group, led revenue growth strategies, expanding the client base through targeted research and relationship building, resulting in a 15% increase in ad sales.",
+                "Business Development Leadership: Took the reins as the CEO of Allis Media LLC, overseeing all operations, focusing on advertising sales, and driving the business's growth, resulting in a 20% increase in revenue over 4 years.",
+                "Team Collaboration: Led the team in generating new business, fostering a collaborative environment that resulted in a 30% increase in new client acquisitions.",
+                "Sales Management: Managed advertising space sales for Rocky Mountain News for 5 years, implementing effective sales strategies and contributing to a 10% growth in ad revenue.",
+                "Independent Business Consulting: Served as an Independent Business Consultant in the Denver area for 2 years, offering strategic advice and guidance to local businesses, improving their marketing effectiveness by 25%.",
+                "Industry Leadership: Actively contributed as a Marketing Advisory Committee Member for the Denver Metro Convention & Visitors Bureau and the University of Colorado's Marketing & Advertising program, sharing expertise and insights to shape industry practices."
+            ]
+        },
+        {
+            "title": "CEO",
+            "cityState": "Denver, CO",
+            "country": "United States of America",
+            "company": "Allis Media LLC",
+            "fromMonth": "January",
+            "fromYear": "2003",
+            "isContinue": false,
+            "toMonth": "December",
+            "toYear": "2007",
+            "achievements": [
+                "Job Title: CEO\n    Company Name: Allis Media LLC\n    Duration: January 2003 - December 2007\n    Location: Denver, CO",
+                "Key Achievement: Expansion of Client Base\n    - Developed a \"touch point\" approach, enhancing client relationships and, expanding client base by 40% within 12 months through persistent research and networking.",
+                "Key Achievement: Revenue Stream Diversification\n    - Spearheaded a strategic initiative, identifying and prospecting new revenue streams, resulting in enhanced business growth and stability.",
+                "Key Achievement: Team Leadership\n    - Successfully led and supervised the sales team, playing a vital role in the generation of new business."
+            ]
+        },
+        {
+            "title": "Manager",
+            "cityState": "Denver, CO",
+            "country": "",
+            "company": "Rocky Mountain News",
+            "fromMonth": "January",
+            "fromYear": "1998",
+            "isContinue": false,
+            "toMonth": "March",
+            "toYear": "2003",
+            "achievements": [
+                "Position: Sales Manager\n      \n      Company: Rocky Mountain News, Denver, CO\n      \n      Date: January 1998 - March 2003\n      \n      Key Contributions:\n      \n      - Generated a 40% increase in client base within 12 months through comprehensive industry research and relationship building techniques.\n      \n      - Spearheaded new revenue streams, enhancing the company's market share in advertising sales."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": "sNN7inLvu3jILCZyriE5trwVEliqXXlQpzFBlicG",
+            "educationLevel": "Bachelor of Arts",
+            "fieldOfStudy": "Marketing  Advertising",
+            "schoolName": "University of Colorado",
+            "schoolLocation": "Boulder, Colorado",
+            "fromMonth": "",
+            "fromYear": "",
+            "isContinue": false,
+            "toMonth": "",
+            "toYear": ""
+        }
+    ]
+}

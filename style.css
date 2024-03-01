@@ -1,0 +1,182 @@
+:root {
+  --heading: 1.26rem;
+  --text: 0.875rem;
+  --text-color: #333;
+  --text-light: #e2e2e2;
+  --padding: "20px";
+  --large-heading: 2rem;
+}
+
+
+.page div:empty {
+  display: none;
+}
+.page {
+  max-height: 29.62cm !important;
+  width: 21.01cm !important;
+  background-color: #fff;
+  margin: 20px;
+}
+
+[data-name="summary"] {
+  text-align: justify;
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: var(--text-color);
+}
+
+[data-type="inline-spans"] {
+  text-align: justify;
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+[data-name="primarySkills"] {
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: var(--text-color);
+}
+
+[data-workexperiencearray="title"] {
+  font-size: var(--text);
+  font-weight: 700;
+  color: var(--text-color);
+}
+[data-workexperiencearray="title"] {
+  font-size: var(--text);
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+span:empty {
+  display: none;
+}
+
+/* [data-workexperiencearray="cityState"],
+[data-workexperiencearray="country"],
+[data-workexperiencearray="company"],
+[data-workexperiencearray="title"],
+[data-workexperiencearray="toMonth"] [data-workexperiencearray="fromMonth"],
+[data-workexperiencearray="fromYear"],
+[data-workexperiencearray="isContinue"],
+[data-workexperiencearray="toYear"] {
+  width: fit-content;
+  display: inline;
+} */
+
+[data-parent-name="contact"] {
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: #333;
+  color: var(--text-color);
+}
+
+[data-name="workExperienceArray"] {
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: var(--text-color);
+  text-align: justify;
+}
+
+[data-name="workExperienceArray"]::before {
+  content: "\2022";
+  font-family: "YourIconFontFamily", sans-serif;
+  font-size: var(--text);
+  color: #333;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+[data-name="shortName"] {
+  padding: 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #333;
+  font-size: var(--large-heading);
+  color: var(--text-light);
+  text-align: justify;
+}
+
+[data-name="jobTitle"] {
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: var(--text-color);
+  text-align: justify;
+}
+[data-name="name"] {
+  padding: 5px 15px;
+  font-size: var(--heading);
+  color: var(--text-color);
+  text-align: justify;
+}
+
+
+[data-workexperiencearray="cityState"]::before,
+[data-workexperiencearray="country"]::before,
+[data-workexperiencearray="company"]::before,
+[data-workexperiencearray="title"]::before,
+[data-workexperiencearray="toMonth"]::before,
+[data-workexperiencearray="fromMonth"]::before,
+[data-workexperiencearray="fromYear"]::before,
+[data-workexperiencearray="isContinue"]::before,
+[data-workexperiencearray="toYear"]::before {
+  content: " ";
+  margin-right: 0px;
+}
+
+[data-type="inline-spans"] ::before {
+  content: " ";
+  margin-right: 0px;
+}
+
+[data-name="education"] {
+  padding: 5px 15px;
+  font-size: var(--text);
+  color: var(--text-color);
+}
+
+[data-name="phone"]::before {
+  content: "\260E";
+  font-family: "YourIconFontFamily", sans-serif;
+  font-size: var(--text);
+  color: #333;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+[data-name="email"]::before {
+  content: "\2709";
+  font-family: "YourIconFontFamily", sans-serif;
+  font-size: var(--text);
+  color: #333;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+[data-name="workExperienceArray"]::before {
+  content: "\2022";
+  font-family: "YourIconFontFamily", sans-serif;
+  font-size: var(--text);
+  color: #333;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+[data-workexperiencearray="cityState"]::before,
+[data-workexperiencearray="country"]::before,
+[data-workexperiencearray="company"]::before,
+[data-workexperiencearray="title"]::before,
+[data-workexperiencearray="toMonth"]::before,
+[data-workexperiencearray="fromMonth"]::before,
+[data-workexperiencearray="fromYear"]::before,
+[data-workexperiencearray="isContinue"]::before,
+[data-workexperiencearray="toYear"]::before {
+  content: " ";
+  margin-right: 0px;
+}

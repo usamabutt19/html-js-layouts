@@ -1,0 +1,131 @@
+{
+    
+    "shortName": "JS",
+    "name": "JUNAID SHAUKAT",
+    "jobTitle": "Senior Flutter Developer",
+    "contact": {
+        "linkedIn": "",
+        "email": "junaidshaukat123@gmail.com",
+        "phone": "03425846932"
+    },
+      
+    "primarySkills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "RESTful API",
+        "Git",
+        "Problem Solving"
+    ],
+    "summary": "Driven and results-oriented technology professional with a proven track record of success in app development and training. Notable achievements include spearheading the development of cutting-edge mobile apps and serving as a Flutter Trainer at PNY Institute. Possess strong leadership qualities, strategic thinking, and visionary capabilities, as evidenced by successful roles at Millennium Software (Pvt.) Limited and QSol. With a focus on MERN stack development, my unique services and value lie in delivering high-quality, innovative solutions that exceed client expectations. Ready to contribute to a dynamic team as a Jr. MERN Stack Developer, bringing a combination of technical expertise and leadership acumen to drive business growth and success.",
+    "workExperienceArray": [
+        {
+            "title": "Flutter Trainer",
+            "cityState": "Rawalpindi",
+            "country": "Pakistan",
+            "company": "PNY Institute",
+            "fromMonth": "November",
+            "fromYear": "2023",
+            "isContinue": true,
+            "toMonth": "",
+            "toYear": "",
+            "achievements": [
+                "Designed and delivered comprehensive training modules for Flutter development, effectively equipping students with practical skills and knowledge",
+                "Crafted engaging and interactive learning materials to enhance the learning experience for students",
+                "Provided mentorship and guidance to students, resulting in a significant increase in their understanding and proficiency in Flutter development",
+                "Demonstrated leadership by effectively leading and managing training sessions and addressing student queries and concerns",
+                "Pioneered innovative teaching methods and techniques to foster a conducive learning environment",
+                "Collaborated with the management team to continuously improve the training program and ensure its relevance to industry standards",
+                "Strategically contributed to the development of the training curriculum, incorporating real-world projects and case studies for practical application"
+            ]
+        },
+        {
+            "title": "Mobile App Developer",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "Millennium Software (Pvt.) Limited",
+            "fromMonth": "January",
+            "fromYear": "2021",
+            "isContinue": false,
+            "toMonth": "January",
+            "toYear": "2022",
+            "achievements": [
+                "Developed and maintained mobile applications for Millennium Software (Pvt.) Limited",
+                "Collaborated with cross-functional teams to ensure seamless integration of mobile applications with backend systems",
+                "Implemented new features and enhancements which resulted in a 20% increase in user engagement",
+                "Provided technical guidance and mentorship to junior developers, contributing to their professional growth and development",
+                "Participated in strategic planning meetings to align mobile development efforts with overall company objectives",
+                "Identified and resolved technical issues, improving the overall performance and user experience of mobile applications"
+            ]
+        },
+        {
+            "title": "App Developer",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "Freelance",
+            "fromMonth": "January",
+            "fromYear": "2019",
+            "isContinue": true,
+            "toMonth": "",
+            "toYear": "",
+            "achievements": [
+                "Developed and deployed multiple MERN stack applications for various clients, resulting in increased user engagement and satisfaction",
+                "Collaborated with cross-functional teams to gather requirements, design, develop, and test applications, ensuring timely delivery and high-quality products",
+                "Utilized strong problem-solving skills to troubleshoot and resolve technical issues, enhancing the overall performance and functionality of the applications",
+                "Spearheaded the development of a new feature for an e-commerce application, leading to a 20% increase in sales and revenue",
+                "Provided technical leadership and guidance to junior developers, fostering a collaborative and innovative work environment",
+                "Identified and implemented strategic improvements to the development process, resulting in shorter development cycles and improved efficiency"
+            ]
+        },
+        {
+            "title": "Flutter Developer",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "QSol",
+            "fromMonth": "November",
+            "fromYear": "2023",
+            "isContinue": true,
+            "toMonth": "",
+            "toYear": "",
+            "achievements": [
+                "Played a key role as a Senior Flutter Developer at QSol in Islamabad, Pakistan",
+                "Led the development of a high-performing, user-friendly mobile app using Flutter framework",
+                "Collaborated with cross-functional teams to deliver innovative solutions and meet project deadlines",
+                "Developed and implemented efficient coding practices, resulting in a 20% increase in app performance",
+                "Provided technical guidance and mentorship to junior developers, contributing to a more cohesive and productive team"
+            ]
+        }
+    ],
+
+    "education": [
+        {
+            "id": "2HFdCFOO3XbowJ5tYcr8kU2H1iEK0UwPDzpLMxaK",
+            "educationLevel": "Intermediate",
+            "fieldOfStudy": "ICS",
+            "schoolName": "PCIT",
+            "schoolLocation": "Rawalpindi",
+            "fromMonth": "January",
+            "fromYear": "2012",
+            "isContinue": false,
+            "toMonth": "January",
+            "toYear": "2015"
+        },
+        {
+            "id": "R8O3ZdxsXQxUjWLBwKsNZoToh0k949HyBjQBmbiM",
+            "educationLevel": "BS",
+            "fieldOfStudy": "IT",
+            "schoolName": "Bahria University",
+            "schoolLocation": "Islamabad",
+            "fromMonth": "January",
+            "fromYear": "2015",
+            "isContinue": false,
+            "toMonth": "January",
+            "toYear": "2019"
+        }
+    ]
+ 
+}

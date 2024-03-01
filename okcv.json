@@ -1,0 +1,137 @@
+{
+    
+    "shortName": "MU",
+    "name": "Muhammad Usama Butt",
+    "jobTitle": "Team Lead / Web Developer",
+    "contact": {
+        "linkedIn": "",
+        "email": "buttusamarwp2@gmail.com",
+        "phone": "+923415233592"
+    },
+        
+    "primarySkills": [
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "MongoDB",
+        "ExpressJS",
+        "Redux",
+        "HTML5",
+        "CSS",
+        "Git",
+        "TypeScript"
+    ],
+    
+    "summary": "Muhammad Usama Butt is a seasoned MERN Developer with a proven track record of delivering impactful web solutions. His adept leadership and vision have led to successful implementations of dynamic and interactive user interfaces using React and NextJS. Muhammad's strategic use of JavaScript, NodeJS, and MongoDB has resulted in seamless functionality and enriched user experiences, evident in his work with CareerBooster.Al and Horizon Tech Services Pvt. Ltd. His expertise in MERN stack development, combined with a commitment to client satisfaction, makes him a valuable asset for any organization seeking to elevate its digital presence. With proficiency in openAI integration and data visualization, Muhammad brings unique and valuable services to potential clients or employers.",
+    "workExperienceArray": [
+        {
+            "title": "Team Lead / Web Developer",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "CareerBooster.Al",
+            "fromMonth": "November",
+            "fromYear": "2023",
+            "isContinue": true,
+            "toMonth": "",
+            "toYear": "Present",
+            "achievements": [
+                "Team Lead / Web Developer\n    \n      Company: CareerBooster.Al, Islamabad, Pakistan\n       \n      Duration: November 2023 - Present\n      \n      Responsibilities:\n      \n        Proficiently utilized Next.js framework for both frontend and backend development, resulting in dynamic and immersive user interfaces\n        Skilled in integrating backend systems with OpenAI's APIs, deploying voice models, and leveraging assistant functionalities to enhance user experiences\n        Specialized in building rich frontend experiences and seamlessly integrating AI capabilities into projects\n        Guided and led the team towards successful project completion\n        Strategically planned and made decisions to solve complex problems and ensure project success",
+                "Proficiently utilized Next.js framework for both frontend and backend development, resulting in dynamic and immersive user interfaces",
+                "Skilled in integrating backend systems with OpenAI's APIs, deploying voice models, and leveraging assistant functionalities to enhance user experiences",
+                "Specialized in building rich frontend experiences and seamlessly integrating AI capabilities into projects",
+                "Guided and led the team towards successful project completion",
+                "Strategically planned and made decisions to solve complex problems and ensure project success"
+            ]
+        },
+        {
+            "title": "Full Stack Developer",
+            "cityState": "Islamabad",
+            "country": "Pakistan",
+            "company": "Horizon Tech Services Pvt. Ltd.",
+            "fromMonth": "July",
+            "fromYear": "2023",
+            "isContinue": false,
+            "toMonth": "October",
+            "toYear": "2023",
+            "achievements": [
+                "Utilized React and Vue.js to create dynamic and interactive user interfaces for web applications, enhancing the overall user experience",
+                "Expertise in data visualization tools to effectively analyze and present complex data sets, providing valuable insights and aiding in data-driven decision-making processes",
+                "Contributed to the successful development and implementation of web applications, demonstrating strong problem-solving skills and attention to detail",
+                "Collaborated with cross-functional teams to ensure seamless integration of front-end and back-end components, showcasing strong teamwork and communication abilities",
+                "Demonstrated leadership by guiding and mentoring junior developers, fostering a collaborative and innovative work environment"
+            ]
+        },
+        {
+            "title": "Web Developer",
+            "cityState": "Rawalpindi",
+            "country": "Pakistan",
+            "company": "Techlancers.Inc",
+            "fromMonth": "February",
+            "fromYear": "2022",
+            "isContinue": false,
+            "toMonth": "March",
+            "toYear": "2023",
+            "achievements": [
+                "Developed and maintained custom websites and web applications for clients using modern web technologies, with a strong emphasis on React and NextJS.",
+                "Utilized tools and frameworks such as Node.js, Express, MongoDB, HTML, and CSS to build fast, responsive, and feature-rich front-end solutions.",
+                "Maintained clear and consistent communication with clients throughout the project lifecycle.",
+                "Used Git for version control and worked in agile development environments using tools like JIRA, Asana, and Trello to manage projects and tasks."
+            ]
+        },
+        {
+            "title": "Frontend Developer",
+            "cityState": "Rawalpindi",
+            "country": "Pakistan",
+            "company": "OneSolTech",
+            "fromMonth": "March",
+            "fromYear": "2021",
+            "isContinue": false,
+            "toMonth": "January",
+            "toYear": "2022",
+            "achievements": [
+                "Developed and maintained custom websites and web applications for clients using modern web technologies such as MERN stack (MongoDB, Express.js, React, Node.js), HTML, CSS, and JavaScript.",
+                "Designed and implemented responsive user interfaces that provided an optimal user experience on a variety of devices and screen sizes.",
+                "Collaborated with clients to define project requirements and goals, providing guidance and expertise to ensure the success of their projects.",
+                "Contributed to strategic planning and decision-making for project development, ensuring efficient problem-solving and timely delivery of high-quality products.",
+                "Played a leadership role in guiding the frontend development team towards successful project outcomes, demonstrating vision and effective management."
+            ]
+        },
+        {
+            "title": "Full Stack Developer Intern",
+            "cityState": "",
+            "country": "Remote",
+            "company": "Sayabi Devs",
+            "fromMonth": "a2 Internships",
+            "fromYear": "",
+            "isContinue": false,
+            "toMonth": "October",
+            "toYear": "2022",
+            "achievements": [
+                "Collaborated with a team of developers to build a full-stack website on the MERN stack for a course provider platform, ensuring seamless functionality and user experience.",
+                "Worked on various assigned tasks such as implementing user authentication and creating dynamic content pages.",
+                "Contributed to the successful development and deployment of the MERN stack website for the course provider platform.",
+                "Demonstrated strong problem-solving skills in addressing technical challenges and optimizing website performance.",
+                "Participated in team meetings and contributed ideas for improving the design and functionality of the website.",
+                "Showed leadership in collaborating with team members and effectively communicating to achieve project milestones.",
+                "Demonstrated a strategic approach in decision-making and planning to ensure the project's timely delivery."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": "9WKBqzMNbvLluRJI7sxaCdARSNPS5g3I2ZDYqIkZ",
+            "educationLevel": "BE",
+            "fieldOfStudy": "Software Engineering",
+            "schoolName": "NUST",
+            "schoolLocation": "Islamabad",
+            "fromMonth": "",
+            "fromYear": "pteimper",
+            "isContinue": false,
+            "toMonth": "June",
+            "toYear": "ZuZzs"
+        }
+    ]
+    
+
+    
+}
