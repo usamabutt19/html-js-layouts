@@ -25,6 +25,178 @@ const inlineSpans = [
 ];
 const ignoreList = ["styles"];
 
+const components = {
+  shortName: {
+    styles:
+      "h-8 w-8 my-8 border text-xl p-10 -ml-2 translate-x-2/4 font-semibold flex justify-center items-center rounded-full bg-gray-900 text-white text-center",
+    tag: "span",
+  },
+  name: {
+    styles: "text-4xl font-bold flex justify-center items-center w-full mb-2",
+    tag: "span",
+  },
+  jobTitle: {
+    tag: "span",
+    styles: "text-base flex justify-center items-center w-full mb-2",
+  },
+  contact: {
+    styles: "",
+    elements: [
+      {
+        id: "phone",
+        styles: "text-xs mt-2",
+        tag: "span",
+      },
+      {
+        id: "email",
+        styles: "text-xs mt-2",
+        tag: "span",
+      },
+      {
+        id: "linkedIn",
+        styles: "text-xs mt-2",
+        tag: "span",
+      },
+    ],
+  },
+  primarySkills: {
+    styles: "text-xs mt-2 before:content-['\\2022'] before:mr-2",
+    tag: "span",
+  },
+  summary: { styles: "text-justify mb-4 text-xs", tag: "span" },
+  workExperienceArray: {
+    styles: "",
+    elements: [
+      {
+        id: "title",
+        styles: "text-base font-bold w-full",
+        tag: "span",
+      },
+      {
+        styles: "flex gap-1 font-semibold pb-2 text-xs flex-wrap",
+        tag: "div",
+        container: [
+          { id: "fromMonth", styles: "", tag: "span" },
+          { id: "fromYear", styles: "", tag: "span" },
+          {
+            id: "toMonth",
+            styles: "before:content-['\\268A'] before:mr-1",
+            tag: "span",
+          },
+          { id: "toYear", styles: "", tag: "span" },
+          {
+            id: "company",
+            styles:
+              "before:content-['\\2758'] before:mr-2 after:content-['\\2758'] after:ml-2",
+            tag: "span",
+          },
+          { id: "cityState", styles: "", tag: "span" },
+          { id: "country", styles: "", tag: "span" },
+          // { id: "isContinue", styles: "", tag: "span" },
+        ],
+      },
+      {
+        id: "achievements",
+        styles:
+          "text-xs text-justify pb-1 before:content-['\\2022'] before:mr-2",
+        tag: "span",
+      },
+    ],
+  },
+  education: {
+    tag: "div",
+    styles: "",
+    elements: [
+      {
+        tag: "div",
+        styles: "bg-gray-200 flex flex-col w-[30%] p-4 rounded-md",
+        container: [
+          {
+            id: "educationLevel",
+            styles: "font-semibold text-base",
+            tag: "span",
+          },
+          { id: "fieldOfStudy", styles: "text-xs font-semibold", tag: "span" },
+          {
+            id: "schoolName",
+            styles: "italic text-xs font-normal",
+            tag: "span",
+          },
+          {
+            id: "schoolLocation",
+            styles: "text-xs italic font-normal",
+            tag: "span",
+          },
+          {
+            styles: "flex flex-row gap-2 italic",
+            tag: "div",
+            container: [
+              { id: "fromMonth", styles: "text-xs", tag: "span" },
+              { id: "fromYear", styles: "text-xs", tag: "span" },
+              {
+                id: "toMonth",
+                styles: "text-xs before:content-['\\268A'] before:mr-2",
+                tag: "span",
+              },
+              { id: "toYear", styles: "text-xs", tag: "span" },
+              // { id: "isContinue", styles: "", tag: "span" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+};
+
+const templateLayout = {
+  styles: "w-full",
+  fragment: {
+    styles: "flex flex-row bg-white fragment",
+    sideBar: {
+      styles: "bg-[#e2e2e2] w-4/12 flex flex-col justify-start px-6",
+      elements: [
+        {
+          id: "shortName",
+        },
+        {
+          id: "phone",
+        },
+        {
+          id: "email",
+        },
+        {
+          id: "linkedin",
+        },
+        {
+          id: "primarySkills",
+        },
+      ],
+    },
+
+    body: {
+      styles:
+        "text-black w-8/12 flex-1 flex flex-col justify-start items-start px-6 my-6",
+      elements: [
+        {
+          id: "name",
+        },
+        {
+          id: "jobTitle",
+        },
+        {
+          id: "summary",
+        },
+        {
+          id: "workExperienceArray",
+        },
+        {
+          id: "education",
+        },
+      ],
+    },
+  },
+};
+
 // const components = {
 //   shortName: {
 //     styles:
@@ -37,43 +209,43 @@ const ignoreList = ["styles"];
 //   },
 //   jobTitle: {
 //     tag: "span",
-//     styles: "text-base flex justify-center items-center w-full mb-2",
+//     styles: "text-lg flex justify-center items-center w-full mb-2",
 //   },
 //   contact: {
-//     styles: "",
+//     styles: "flex-row justify-center items-center w-full",
 //     elements: [
 //       {
 //         id: "phone",
-//         styles: "text-xs mt-2",
+//         styles: "text-sm mt-2",
 //         tag: "span",
 //       },
 //       {
 //         id: "email",
-//         styles: "text-xs mt-2",
+//         styles: "text-sm mt-2",
 //         tag: "span",
 //       },
 //       {
 //         id: "linkedIn",
-//         styles: "text-xs mt-2",
+//         styles: "text-sm mt-2",
 //         tag: "span",
 //       },
 //     ],
 //   },
 //   primarySkills: {
-//     styles: "text-xs mt-2 before:content-['\\2022'] before:mr-2",
+//     styles: "text-sm px-5 py-3 bg-gray-300 rounded-full",
 //     tag: "span",
 //   },
-//   summary: { styles: "text-justify mb-4 text-xs", tag: "span" },
+//   summary: { styles: "text-justify mb-4 text-sm", tag: "span" },
 //   workExperienceArray: {
-//     styles: "",
+//     styles: "my-2",
 //     elements: [
 //       {
 //         id: "title",
-//         styles: "text-base font-bold w-full",
+//         styles: "text-lg font-bold",
 //         tag: "span",
 //       },
 //       {
-//         styles: "flex gap-1 font-semibold pb-2 text-xs flex-wrap",
+//         styles: "flex gap-1 font-semibold pb-2 text-sm flex-wrap",
 //         tag: "div",
 //         container: [
 //           { id: "fromMonth", styles: "", tag: "span" },
@@ -98,7 +270,7 @@ const ignoreList = ["styles"];
 //       {
 //         id: "achievements",
 //         styles:
-//           "text-xs text-justify pb-1 before:content-['\\2022'] before:mr-2",
+//           "text-sm text-justify pb-1 before:content-['\\2022'] before:mr-2",
 //         tag: "span",
 //       },
 //     ],
@@ -150,14 +322,27 @@ const ignoreList = ["styles"];
 
 // const templateLayout = {
 //   styles: "w-full",
+
 //   fragment: {
-//     styles: "flex flex-row bg-white fragment",
-//     sideBar: {
-//       styles: "bg-[#e2e2e2] w-4/12 flex flex-col justify-start px-6",
+//     styles: "flex flex-col bg-white fragment py-5",
+
+//     header: {
+//       styles:
+//         "text-black m-2 p-3 flex flex-col w-[98%] justify-start rounded-md bg-gray-300 items-start my-6",
 //       elements: [
 //         {
-//           id: "shortName",
+//           id: "name",
 //         },
+//         {
+//           id: "jobTitle",
+//         },
+//       ],
+//     },
+
+//     contact: {
+//       styles:
+//         "flex flex-row text-base w-[98%] justify-center items-center m-2 p-3 rounded-md gap-4 bg-gray-300",
+//       elements: [
 //         {
 //           id: "phone",
 //         },
@@ -167,28 +352,38 @@ const ignoreList = ["styles"];
 //         {
 //           id: "linkedin",
 //         },
+//       ],
+//     },
+//     summary: {
+//       styles: "bg-red text-black text-justify px-8",
+//       elements: [
+//         {
+//           id: "summary",
+//         },
+//       ],
+//     },
+//     skills: {
+//       styles:
+//         "bg-red text-black w-full flex-1 gap-2 flex flex-row flex-wrap justify-start items-start px-6 my-6",
+//       elements: [
 //         {
 //           id: "primarySkills",
 //         },
 //       ],
 //     },
+//     workExperienceArray: {
+//       styles: "flex flex-col px-8 w-full",
 
-//     body: {
-//       styles:
-//         "bg-red text-black w-8/12 flex-1 flex flex-col justify-start items-start px-6 my-6",
 //       elements: [
-//         {
-//           id: "name",
-//         },
-//         {
-//           id: "jobTitle",
-//         },
-//         {
-//           id: "summary",
-//         },
 //         {
 //           id: "workExperienceArray",
 //         },
+//       ],
+//     },
+//     education: {
+//       styles:
+//         "bg-red text-black flex flex-col justify-start items-start px-6 my-6",
+//       elements: [
 //         {
 //           id: "education",
 //         },
@@ -196,188 +391,6 @@ const ignoreList = ["styles"];
 //     },
 //   },
 // };
-
-
-
-
-const components = {
-  shortName: {
-    styles:
-      "h-8 w-8 my-8 border text-xl p-10 -ml-2 translate-x-2/4 font-semibold flex justify-center items-center rounded-full bg-gray-900 text-white text-center",
-    tag: "span",
-  },
-  name: {
-    styles: "text-4xl font-bold flex justify-center items-center w-full mb-2",
-    tag: "span",
-  },
-  jobTitle: {
-    tag: "span",
-    styles: "text-lg flex justify-center items-center w-full mb-2",
-  },
-  contact: {
-    styles: "flex-row justify-center items-center w-full",
-    elements: [
-      {
-        id: "phone",
-        styles: "text-sm mt-2",
-        tag: "span",
-      },
-      {
-        id: "email",
-        styles: "text-sm mt-2",
-        tag: "span",
-      },
-      {
-        id: "linkedIn",
-        styles: "text-sm mt-2",
-        tag: "span",
-      },
-    ],
-  },
-  primarySkills: {
-    styles: "text-sm px-5 py-3 bg-gray-300 rounded-full",
-    tag: "span",
-  },
-  summary: { styles: "text-justify mb-4 text-sm", tag: "span" },
-  workExperienceArray: {
-    styles: "my-2",
-    elements: [
-      {
-        id: "title",
-        styles: "text-lg font-bold",
-        tag: "span",
-      },
-      {
-        styles: "flex gap-1 font-semibold pb-2 text-sm flex-wrap",
-        tag: "div",
-        container: [
-          { id: "fromMonth", styles: "", tag: "span" },
-          { id: "fromYear", styles: "", tag: "span" },
-          {
-            id: "toMonth",
-            styles: "before:content-['\\268A'] before:mr-1",
-            tag: "span",
-          },
-          { id: "toYear", styles: "", tag: "span" },
-          {
-            id: "company",
-            styles:
-              "before:content-['\\2758'] before:mr-2 after:content-['\\2758'] after:ml-2",
-            tag: "span",
-          },
-          { id: "cityState", styles: "", tag: "span" },
-          { id: "country", styles: "", tag: "span" },
-          // { id: "isContinue", styles: "", tag: "span" },
-        ],
-      },
-      {
-        id: "achievements",
-        styles:
-          "text-sm text-justify pb-1 before:content-['\\2022'] before:mr-2",
-        tag: "span",
-      },
-    ],
-  },
-  education: {
-    tag: "div",
-    styles: "",
-    elements: [
-      {
-        tag: "div",
-        styles: "bg-gray-200 flex flex-col",
-        container: [
-          { id: "educationLevel", styles: "", tag: "span" },
-          { id: "fieldOfStudy", styles: "", tag: "span" },
-          { id: "schoolName", styles: "", tag: "span" },
-          { id: "schoolLocation", styles: "", tag: "span" },
-          {
-            styles: "",
-            tag: "div",
-            container: [
-              { id: "fromMonth", styles: "", tag: "span" },
-              { id: "fromYear", styles: "", tag: "span" },
-              { id: "toMonth", styles: "", tag: "span" },
-              { id: "toYear", styles: "", tag: "span" },
-              { id: "isContinue", styles: "", tag: "span" },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-};
-
-const templateLayout = {
-  styles: "w-full",
-
-  fragment: {
-    styles: "flex flex-col bg-white fragment py-5",
-
-    header: {
-      styles:
-        "text-black m-2 p-3 flex flex-col w-[98%] justify-start rounded-md bg-gray-300 items-start my-6",
-      elements: [
-        {
-          id: "name",
-        },
-        {
-          id: "jobTitle",
-        },
-      ],
-    },
-
-    contact: {
-      styles:
-        "flex flex-row text-base w-[98%] justify-center items-center m-2 p-3 rounded-md gap-4 bg-gray-300",
-      elements: [
-        {
-          id: "phone",
-        },
-        {
-          id: "email",
-        },
-        {
-          id: "linkedin",
-        },
-      ],
-    },
-    summary: {
-      styles: "bg-red text-black text-justify px-8",
-      elements: [
-        {
-          id: "summary",
-        },
-      ],
-    },
-    skills: {
-      styles:
-        "bg-red text-black w-full flex-1 gap-2 flex flex-row flex-wrap justify-start items-start px-6 my-6",
-      elements: [
-        {
-          id: "primarySkills",
-        },
-      ],
-    },
-    workExperienceArray: {
-      styles: "flex flex-col px-8 w-full",
-
-      elements: [
-        {
-          id: "workExperienceArray",
-        },
-      ],
-    },
-    education: {
-      styles:
-        "bg-red text-black flex flex-col justify-start items-start px-6 my-6",
-      elements: [
-        {
-          id: "education",
-        },
-      ],
-    },
-  },
-};
 
 const cleanUpHTML = (page) => {
   const cleanUpIds = [
@@ -419,61 +432,53 @@ const cleanUpHTML = (page) => {
   }
 };
 
-function checkOverflow(id) {
-  var element = document.getElementById(id);
+function handlingOverflow(page1, page2) {
+  console.log(page1, page2);
+  let pageOne = document.getElementById(page1);
+  let pageTwo = document.getElementById(page2);
+  console.log(pageOne, pageTwo);
+}
 
+function checkOverflow(id) {
+  var element = document.getElementById(`page-${id}`);
   // Check if element exists
   if (!element) {
-    console.error("Element with id '" + id + "' not found.");
     return false;
   }
 
   var fragment = element.children[0];
   var children = fragment.children;
-  console.log(children)
 
   var totalHeight = 0;
 
   // Calculate combined height of children
   for (var i = 0; i < children.length; i++) {
-    console.log(children[i]);
-    let attr = children[i].getAttribute("data-container-name")
-    if(attr === "sideBar"){
-      
-    }else {
+    let attr = children[i].getAttribute("data-container-name");
+    if (attr === "sideBar") {
+    } else {
       totalHeight += children[i].offsetHeight;
-  
-
     }
   }
 
-  console.table(
-    "Page",
-    id,
-    "Children",
-    children.length,
-    "Total Height",
-    totalHeight
-  );
-
   // Check if total height exceeds viewport height
-  if (totalHeight > element.scrollHeight) {
+  if (totalHeight > element.clientHeight) {
     console.log("Overflow detected!");
-    return true;
+    handlingOverflow(`page-${id}`, `page-${id + 1}`);
+    // return true;
   } else {
     console.log("No overflow detected.");
-    return false;
+    // return false;
   }
 }
 
-const setSidebarHeight = (page) =>{
-  const getSideBar = page.querySelector('div[data-container-name="sideBar"]')
-  if(getSideBar){
-    
-    getSideBar.style.height = "29.62cm"
+const setSidebarHeight = (page) => {
+  const getSideBar = page.querySelector('div[data-container-name="sideBar"]');
+  if (getSideBar) {
+    getSideBar.style.height = "29.62cm";
   }
-}
+};
 const newHeading = (name, content) => {
+  console.log("inside")
   let elemHeading = document.createElement("h2");
   elemHeading.textContent = content;
   setStylesToElement(
@@ -495,25 +500,31 @@ const educationDivs = (page) => {
     "[data-education-container-index]"
   );
   let newDiv = document.createElement("div");
+  newDiv.setAttribute("data-container-name","education");
   for (const singleEducation of Array.from(educationDivs)) {
     newDiv.appendChild(singleEducation);
   }
-  setStylesToElement(newDiv, "flex gap-4 px-6 flex-wrap");
+  setStylesToElement(newDiv, "flex flex-row gap-4 px-6 flex-wrap");
   page.append(newDiv);
 };
 
 const isContentBleeding = (page, checking) => {
   let height = 0;
+  let margins = 0;
   if (checking === "before") {
-    height = 50;
+    height = 40;
   }
-  let getBody = page.querySelector('div[data-container-name="body"]') || page.children[0];
-  
-    
-  let isOverflowingVertically = getBody.scrollHeight + height  > 1119;
+  let getBody = page.querySelector('div[data-container-name="body"]');
+  if (getBody) {
+    let style = window.getComputedStyle(getBody);
+    margins = parseInt(style.marginTop) + parseInt(style.marginBottom);
+  } else {
+    getBody = page.children[0];
+  }
+  let isOverflowingVertically = getBody.clientHeight + height > 1119 - margins;
   if (isOverflowingVertically) {
     cleanUpHTML(page);
-    isOverflowingVertically = getBody.scrollHeight + height  > 1119;
+    isOverflowingVertically = getBody.clientHeight + height > 1119 - margins;
     if (!isOverflowingVertically) {
       return false;
     }
@@ -561,6 +572,9 @@ function getRandomHexCode() {
 
 const createElements = (obj) => {
   const [key, value] = obj;
+  if( key === "education"){
+    debugger
+  }
   //   append the attribute to the elements
 
   let template = components[key];
@@ -625,9 +639,6 @@ const createElements = (obj) => {
               }
             } else {
               if (element.container) {
-                //  if(template.tag!== "" && key === "education"){
-                //   outer_container_element= document.createElement(template.tag)
-                //  }
                 const container_element = document.createElement(element.tag);
                 setAttributesToElem(attr, container_element);
 
@@ -811,7 +822,7 @@ function FinalizeGeneration(span, page) {
     getToNode(span, attribute, page);
   }
   if (isItBefore) {
-    leftSpan.push({span: span,attribute: attribute});
+    leftSpan.push({ span: span, attribute: attribute });
     return true;
   }
 
@@ -819,7 +830,7 @@ function FinalizeGeneration(span, page) {
   return isItAfter;
 }
 
-fetch("./largecv.json")
+fetch("./cv.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -833,30 +844,40 @@ fetch("./largecv.json")
     return spans;
   })
   .then((spans) => {
-    spans.map((span) => {
-      const gen = FinalizeGeneration(span, pages[currentPageIndex]);
-      if (gen) {
-        const latestPage = newPage();
-        generateLayout(latestPage);
-        currentPageIndex = pages.length - 1;
-        if(leftSpan.length >0){
-          const leftOutSpan = FinalizeGeneration(leftSpan[0].span, pages[currentPageIndex]);
-          leftSpan.pop();
-        }
-      }
-    });
-  })
-  .catch((error) => console.error(error))
-  .finally(() => {
-    // addHeadings();
-    educationDivs(pages[pages.length - 1]);
-    cleanUpHTML(pages[pages.length - 1]);
-    setSidebarHeight(pages[0])
-    setTimeout(() => {
-
-      const status = pages.map((page, index) => checkOverflow("page-" + index));
-      console.log(status);
-    },[100]);
+    spans.forEach(
+      (span) => {
+        setTimeout(() => {
+          const gen = FinalizeGeneration(span, pages[currentPageIndex]);
+          
+          if (gen) {
+            const latestPage = newPage();
+            
+            generateLayout(latestPage);
+            currentPageIndex = pages.length - 1;
+            if (leftSpan.length > 0) {
+              const leftOutSpan = FinalizeGeneration(
+                leftSpan[0].span,
+                pages[currentPageIndex]
+                );
+                leftSpan.pop();
+              }
+            }
+          });
+        },
+        [1000]
+        );
+      })
+      .catch((error) => console.error(error))
+      .finally(() => {
+        setTimeout(() => {
+          pages.map((page, index) => {
+            educationDivs(pages[index]);
+            setSidebarHeight(pages[index]);
+            checkOverflow(index);
+            cleanUpHTML(page);
+          });
+          // addHeadings()
+        }, [100]);
   });
 
 const firstPage = newPage();
