@@ -7,7 +7,6 @@
   --large-heading: 2rem;
 }
 
-
 .page div:empty {
   display: none;
 }
@@ -114,7 +113,6 @@ span:empty {
   text-align: justify;
 }
 
-
 [data-workexperiencearray="cityState"]::before,
 [data-workexperiencearray="country"]::before,
 [data-workexperiencearray="company"]::before,
@@ -179,4 +177,9 @@ span:empty {
 [data-workexperiencearray="toYear"]::before {
   content: " ";
   margin-right: 0px;
+}
+
+[data-type-heading]:before {
+  content: none !important; /* Removes the content */
+  /* You can add additional styles to reset or remove here */
 }

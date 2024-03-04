@@ -11,6 +11,7 @@ let spans = [];
 let currentPageIndex = 0;
 let pages = [];
 let parts = [];
+let headings = [];
 let fragment = [];
 let leftSpan = [];
 const inlineSpans = [
@@ -148,26 +149,59 @@ const components = {
   },
 };
 
+const cvHeadings = [
+  {
+    text: "contact",
+    section: "phone",
+  },
+  {
+    text: "executive summary",
+    section: "summary",
+  },
+  {
+    text: "work experience",
+    section: "workExperienceArray",
+  },
+  {
+    text: "education",
+    section: "education",
+  },
+  {
+    text: "skills",
+    section: "primarySkills",
+  },
+];
+
 const templateLayout = {
   styles: "w-full",
   fragment: {
     styles: "flex flex-row bg-white fragment",
     sideBar: {
-      styles: "bg-[#e2e2e2] w-4/12 flex flex-col justify-start px-6",
+      styles: "bg-[#e2e2e2] w-3/12 flex flex-col justify-start px-6",
       elements: [
         {
+          heading: false,
+          headingText: "",
           id: "shortName",
         },
         {
+          heading: true,
+          headingText: "Contact",
           id: "phone",
         },
         {
+          heading: true,
+          headingText: "Contact",
           id: "email",
         },
         {
+          heading: true,
+          headingText: "Contact",
           id: "linkedin",
         },
         {
+          heading: true,
+          headingText: "Skills",
           id: "primarySkills",
         },
       ],
@@ -175,21 +209,31 @@ const templateLayout = {
 
     body: {
       styles:
-        "text-black w-8/12 flex-1 flex flex-col justify-start items-start px-6 my-6",
+        "text-black w-9/12 flex-1 flex flex-col justify-start items-start px-6 my-6",
       elements: [
         {
+          heading: false,
+          headingText: "",
           id: "name",
         },
         {
+          heading: false,
+          headingText: "",
           id: "jobTitle",
         },
         {
+          heading: true,
+          headingText: "Exective Summary",
           id: "summary",
         },
         {
+          heading: true,
+          headingText: "Work Experience",
           id: "workExperienceArray",
         },
         {
+          heading: true,
+          headingText: "Education",
           id: "education",
         },
       ],
@@ -478,7 +522,7 @@ const setSidebarHeight = (page) => {
   }
 };
 const newHeading = (name, content) => {
-  console.log("inside")
+  console.log("inside");
   let elemHeading = document.createElement("h2");
   elemHeading.textContent = content;
   setStylesToElement(
@@ -500,7 +544,7 @@ const educationDivs = (page) => {
     "[data-education-container-index]"
   );
   let newDiv = document.createElement("div");
-  newDiv.setAttribute("data-container-name","education");
+  newDiv.setAttribute("data-container-name", "education");
   for (const singleEducation of Array.from(educationDivs)) {
     newDiv.appendChild(singleEducation);
   }
@@ -560,6 +604,23 @@ const newPage = () => {
   return div;
 };
 
+const generateHeading = (elem) => {
+  console.log(elem);
+
+  if (headings.includes(elem.headingText)) {
+  } else {
+    console.count();
+
+    // const heading = document.createElement("h2");
+    // heading.textContent = elem.headingText;
+    // console.log(headings);
+    headings.push({ for: elem.headingText, elem: heading });
+    //return heading;
+  }
+
+  // generateElements()
+};
+
 function getRandomHexCode() {
   const hexChars = "0123456789ABCDEF";
   let color = "#";
@@ -572,8 +633,7 @@ function getRandomHexCode() {
 
 const createElements = (obj) => {
   const [key, value] = obj;
-  if( key === "education"){
-    debugger
+  if (key === "education") {
   }
   //   append the attribute to the elements
 
@@ -750,6 +810,9 @@ const generateLayout = (page) => {
           });
 
           _elements.map((_element) => div.append(_element));
+
+          headings = [];
+
           fragment.push({
             [fragmentpart]: div,
           });
@@ -762,9 +825,10 @@ const generateLayout = (page) => {
       const styles = templateLayout[templatepart].styles;
       styles.split(" ").map((cls) => div.classList.add(cls));
 
-      const _elements = templateLayout[templatepart].elements.map((element) =>
-        generateElements(element, "span")
-      );
+      const _elements = templateLayout[templatepart].elements.map((element) => {
+        console.log(element);
+        return generateElements(element, "span");
+      });
 
       _elements.map((_element) => div.append(_element));
 
@@ -800,6 +864,9 @@ const getToNode = (span, attribute, page) => {
 
     const findChild = value.children[attribute];
 
+    const isHeading = span.getAttribute("data-type-heading");
+    console.log(isHeading);
+
     if (findChild) {
       if (
         attribute === "primarySkills" ||
@@ -808,7 +875,12 @@ const getToNode = (span, attribute, page) => {
       ) {
         value.appendChild(span);
         findChild.textContent = "";
-      } else value.replaceChild(span, value.children[attribute]);
+      } else {
+        if (isHeading) {
+          findChild.parentNode.insertBefore(span, findChild);
+          findChild.textContent = "";
+        } else value.replaceChild(span, value.children[attribute]);
+      }
     } else {
     }
   }
@@ -830,7 +902,7 @@ function FinalizeGeneration(span, page) {
   return isItAfter;
 }
 
-fetch("./cv.json")
+fetch("./largecv.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Network response was not ok");
@@ -844,40 +916,63 @@ fetch("./cv.json")
     return spans;
   })
   .then((spans) => {
+    cvHeadings.forEach((item) => {
+      let found = false; // Flag to track if the condition is met
+      spans.forEach((singleSpan, index) => {
+        if (found) return; // If the condition is already met, exit the loop
+        const getSpan = singleSpan.getAttribute("data-name");
+        if (getSpan === item.section) {
+          const heading = document.createElement("h2");
+          heading.textContent = item.text;
+          setAttributesToElem(
+            [{ name: item.section }, { "type-heading": true }],
+            heading
+          );
+          setStylesToElement(
+            heading,
+            "font-semibold uppercase text-gray-950 text-md border-t-2 border-b-2 py-0.5 w-full"
+          );
+
+          spans.splice(index, 0, heading);
+          found = true; // Set the flag to true when the condition is met
+          // You can perform other actions here if needed
+        }
+      });
+    });
+    console.log(spans);
     spans.forEach(
       (span) => {
         setTimeout(() => {
           const gen = FinalizeGeneration(span, pages[currentPageIndex]);
-          
+
           if (gen) {
             const latestPage = newPage();
-            
+
             generateLayout(latestPage);
             currentPageIndex = pages.length - 1;
             if (leftSpan.length > 0) {
               const leftOutSpan = FinalizeGeneration(
                 leftSpan[0].span,
                 pages[currentPageIndex]
-                );
-                leftSpan.pop();
-              }
+              );
+              leftSpan.pop();
             }
-          });
-        },
-        [1000]
-        );
-      })
-      .catch((error) => console.error(error))
-      .finally(() => {
-        setTimeout(() => {
-          pages.map((page, index) => {
-            educationDivs(pages[index]);
-            setSidebarHeight(pages[index]);
-            checkOverflow(index);
-            cleanUpHTML(page);
-          });
-          // addHeadings()
-        }, [100]);
+          }
+        });
+      },
+      [1000]
+    );
+  })
+  .catch((error) => console.error(error))
+  .finally(() => {
+    setTimeout(() => {
+      pages.map((page, index) => {
+        educationDivs(pages[index]);
+        setSidebarHeight(pages[index]);
+        checkOverflow(index);
+        cleanUpHTML(page);
+      });
+    }, [100]);
   });
 
 const firstPage = newPage();
