@@ -1,14 +1,12 @@
 {
-    
     "shortName": "JS",
     "name": "JUNAID SHAUKAT",
     "jobTitle": "Senior Flutter Developer",
     "contact": {
-        "linkedIn": "",
+        "linkedIn": "https://github.com/linkedIn/js/ddsd//dsdf/gfgfg/g/dfg",
         "email": "junaidshaukat123@gmail.com",
         "phone": "03425846932"
     },
-      
     "primarySkills": [
         "JavaScript",
         "React",
@@ -100,7 +98,6 @@
             ]
         }
     ],
-
     "education": [
         {
             "id": "2HFdCFOO3XbowJ5tYcr8kU2H1iEK0UwPDzpLMxaK",
@@ -127,5 +124,4 @@
             "toYear": "2019"
         }
     ]
- 
 }

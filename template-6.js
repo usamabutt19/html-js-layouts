@@ -7,17 +7,20 @@ const cvHeadings = [
   {
     text: "executive summary",
     section: "summary",
-    styles: "font-semibold border-t-2 border-b-2 border-gray-950 mt-2 uppercase text-base text-gray-950 py-0.5",
+    styles:
+      "font-semibold border-t-2 border-b-2 border-gray-950 mt-2 uppercase text-base text-gray-950 py-0.5",
   },
   {
     text: "work experience",
     section: "workExperienceArray",
-    styles: "font-semibold uppercase border-t-2 border-b-2 border-gray-950 text-md text-gray-950 py-0.5",
+    styles:
+      "font-semibold uppercase border-t-2 border-b-2 border-gray-950 text-md text-gray-950 py-0.5",
   },
   {
     text: "education",
     section: "education",
-    styles: "font-semibold border-t-2 border-b-2 border-gray-950 mt-2 w-full uppercase text-md text-gray-950 py-0.5",
+    styles:
+      "font-semibold border-t-2 border-b-2 border-gray-950 mt-2 w-full uppercase text-md text-gray-950 py-0.5",
   },
   {
     text: "skills",
@@ -121,7 +124,6 @@ const templateLayouto = {
   },
 };
 
-
 const templateLayout = {
   styles: "w-full",
 
@@ -203,8 +205,7 @@ const components = {
     tag: "span",
   },
   name: {
-    styles:
-      "text-4xl font-bold flex text-gray-950 items-center w-full mx-6",
+    styles: "text-4xl font-bold flex text-gray-950 items-center w-full mx-6",
     tag: "span",
   },
   jobTitle: {
@@ -234,7 +235,8 @@ const components = {
     ],
   },
   primarySkills: {
-    styles: "text-xs inline-block w-1/3",
+    styles:
+      "text-xs inline-block w-[32%] flex before:content-['\\2022'] before:mr-2",
     tag: "span",
   },
   summary: { styles: "text-justify mb-4 text-xs text-gray-950", tag: "span" },
