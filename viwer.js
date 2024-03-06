@@ -1,4 +1,4 @@
-import { components, cvHeadings, templateLayout } from "./template-7.js";
+import { components, cvHeadings, templateLayout } from "./template-8.js";
 
 const pageSize = {
   height: "29.62cm",

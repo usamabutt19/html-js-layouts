@@ -11,6 +11,16 @@
       * {
         box-sizing: border-box;
       }
+
+      .fragmentDecor::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom:-20;
+        height: 100%;
+        width: 20px;
+        background-color: #e04127;
+      }
       h2:empty {
         display: none;
       }
@@ -28,6 +38,7 @@
         display: none;
       }
       .page {
+        position: relative;
         height: 29.62cm !important;
         width: 21.01cm !important;
         background-color: #fff;
